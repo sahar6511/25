@@ -1,0 +1,10 @@
+.special-rooms{
+    @extend .p-15;
+    &__container{
+        @include spacebetween-flex;
+        // background-color: $white-color;
+        @extend .ptb-30;
+        // flex-wrap: wrap;
+        
+    }
+}

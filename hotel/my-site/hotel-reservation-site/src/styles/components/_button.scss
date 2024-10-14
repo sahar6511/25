@@ -1,0 +1,11 @@
+.btn{
+    @include center-flex;
+    font-weight: bolder;
+    transition-duration: 400ms;
+    padding: 1rem 2rem;
+    border-radius: 5px;
+    border: 2px solid inherit;
+   
+    // height: 50 !important;
+    cursor: pointer;
+}

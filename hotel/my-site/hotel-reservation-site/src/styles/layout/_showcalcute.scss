@@ -1,0 +1,42 @@
+.show-calcute{
+    @include column-flex;
+    gap:10px;
+    width: 30%;
+    &__img{
+       
+        img{
+            border-radius: 5px;
+
+        }
+    }
+    &__date{
+        width: 100%;
+        @extend .p-30;
+        @include spacebetween-flex;
+        border: 1px solid $light-gray-color;
+        border-radius: 5px;
+        p:nth-child(2){
+            color: #388E3C;
+            font-weight: bold;
+        }
+       
+
+    }
+    &__info{
+        width: 100%;
+        @include column-flex;
+        border: 1px solid $light-gray-color;
+        border-radius: 5px;
+        @extend .p-30;
+        .cart-shopping{
+            font-size: 5rem;
+            color:$light-gray-color ;
+
+        }
+        p{
+            color: Red;
+        }
+
+    }
+
+}
